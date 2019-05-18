@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.automation.testcases.LoginTestCRM"/>
+      <class name="com.automation.testcases.TestCasesWithoutFramework"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
