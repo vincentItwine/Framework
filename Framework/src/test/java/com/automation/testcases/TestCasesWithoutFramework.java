@@ -23,7 +23,7 @@ public class TestCasesWithoutFramework {
 		driver.findElement(By.name("password")).sendKeys("Abcd@9876");
 		driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']")).click();
 		
-
+		driver.quit();
 		
 				
 		
