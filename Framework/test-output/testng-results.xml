@@ -26,12 +26,12 @@
       <![CDATA[Test Completed >>> Reports Generated]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26056" started-at="2019-05-24T07:30:17Z" finished-at="2019-05-24T07:30:43Z">
+  <suite name="Default suite" duration-ms="19941" started-at="2019-05-24T07:40:17Z" finished-at="2019-05-24T07:40:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26056" started-at="2019-05-24T07:30:17Z" finished-at="2019-05-24T07:30:43Z">
+    <test name="Default test" duration-ms="19941" started-at="2019-05-24T07:40:17Z" finished-at="2019-05-24T07:40:37Z">
       <class name="com.automation.testcases.LoginTestCRM">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setUpSuite" is-config="true" duration-ms="2490" started-at="2019-05-24T13:00:14Z" finished-at="2019-05-24T13:00:17Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setUpSuite" is-config="true" duration-ms="691" started-at="2019-05-24T13:10:17Z" finished-at="2019-05-24T13:10:17Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test Started]]>
@@ -41,7 +41,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setup" is-config="true" duration-ms="12261" started-at="2019-05-24T13:00:17Z" finished-at="2019-05-24T13:00:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setup" is-config="true" duration-ms="6536" started-at="2019-05-24T13:10:17Z" finished-at="2019-05-24T13:10:24Z">
           <reporter-output>
             <line>
               <![CDATA[Trying to start Browser and Getting application ready]]>
@@ -51,7 +51,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginApp()[pri:1, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp" duration-ms="12413" started-at="2019-05-24T13:00:29Z" finished-at="2019-05-24T13:00:41Z">
+        <test-method status="FAIL" signature="loginApp()[pri:1, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp" duration-ms="12302" started-at="2019-05-24T13:10:24Z" finished-at="2019-05-24T13:10:36Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to find element with css selector == *[name='email']
@@ -59,8 +59,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DELL-PC', ip: '192.168.0.24', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:6085/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 8f28c197-b3ed-4aa6-b5c9-62ed6a45d9c6
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:11982/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7ac8810a-7e80-40cd-814c-1882f0d338f7
 *** Element info: {Using=name, value=email}]]>
             </message>
             <full-stacktrace>
@@ -69,8 +69,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DELL-PC', ip: '192.168.0.24', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:6085/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 8f28c197-b3ed-4aa6-b5c9-62ed6a45d9c6
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:11982/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7ac8810a-7e80-40cd-814c-1882f0d338f7
 *** Element info: {Using=name, value=email}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -122,7 +122,7 @@ Session ID: 8f28c197-b3ed-4aa6-b5c9-62ed6a45d9c6
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="673" started-at="2019-05-24T13:00:41Z" finished-at="2019-05-24T13:00:42Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="442" started-at="2019-05-24T13:10:36Z" finished-at="2019-05-24T13:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -139,11 +139,11 @@ Session ID: 8f28c197-b3ed-4aa6-b5c9-62ed6a45d9c6
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="loginApp1()[pri:2, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp1" duration-ms="2" started-at="2019-05-24T13:00:42Z" finished-at="2019-05-24T13:00:42Z">
+        <test-method status="PASS" signature="loginApp1()[pri:2, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp1" duration-ms="3" started-at="2019-05-24T13:10:37Z" finished-at="2019-05-24T13:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp1 -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="148" started-at="2019-05-24T13:00:42Z" finished-at="2019-05-24T13:00:42Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="101" started-at="2019-05-24T13:10:37Z" finished-at="2019-05-24T13:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -160,7 +160,7 @@ Session ID: 8f28c197-b3ed-4aa6-b5c9-62ed6a45d9c6
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tesrDown()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tesrDown" is-config="true" duration-ms="536" started-at="2019-05-24T13:00:42Z" finished-at="2019-05-24T13:00:43Z">
+        <test-method status="PASS" signature="tesrDown()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tesrDown" is-config="true" duration-ms="529" started-at="2019-05-24T13:10:37Z" finished-at="2019-05-24T13:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tesrDown -->
