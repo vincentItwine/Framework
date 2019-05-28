@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Setting up reports and Test Started]]>
@@ -26,12 +26,12 @@
       <![CDATA[Test Completed >>> Reports Generated]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19941" started-at="2019-05-24T07:40:17Z" finished-at="2019-05-24T07:40:37Z">
+  <suite name="Default suite" duration-ms="64305" started-at="2019-05-28T05:01:05Z" finished-at="2019-05-28T05:02:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19941" started-at="2019-05-24T07:40:17Z" finished-at="2019-05-24T07:40:37Z">
+    <test name="Default test" duration-ms="64305" started-at="2019-05-28T05:01:05Z" finished-at="2019-05-28T05:02:09Z">
       <class name="com.automation.testcases.LoginTestCRM">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setUpSuite" is-config="true" duration-ms="691" started-at="2019-05-24T13:10:17Z" finished-at="2019-05-24T13:10:17Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setUpSuite" is-config="true" duration-ms="4975" started-at="2019-05-28T10:31:00Z" finished-at="2019-05-28T10:31:05Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test Started]]>
@@ -41,7 +41,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setup" is-config="true" duration-ms="6536" started-at="2019-05-24T13:10:17Z" finished-at="2019-05-24T13:10:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="setup" is-config="true" duration-ms="43024" started-at="2019-05-28T10:31:05Z" finished-at="2019-05-28T10:31:48Z">
           <reporter-output>
             <line>
               <![CDATA[Trying to start Browser and Getting application ready]]>
@@ -51,82 +51,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginApp()[pri:1, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp" duration-ms="12302" started-at="2019-05-24T13:10:24Z" finished-at="2019-05-24T13:10:36Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with css selector == *[name='email']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DELL-PC', ip: '192.168.0.24', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:11982/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 7ac8810a-7e80-40cd-814c-1882f0d338f7
-*** Element info: {Using=name, value=email}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == *[name='email']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DELL-PC', ip: '192.168.0.24', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:11982/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 7ac8810a-7e80-40cd-814c-1882f0d338f7
-*** Element info: {Using=name, value=email}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at com.automation.pages.LoginPage.loginToCRM(LoginPage.java:28)
-	at com.automation.testcases.LoginTestCRM.loginApp(LoginTestCRM.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp" duration-ms="5674" started-at="2019-05-28T10:31:48Z" finished-at="2019-05-28T10:31:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="442" started-at="2019-05-24T13:10:36Z" finished-at="2019-05-24T13:10:37Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="13941" started-at="2019-05-28T10:31:54Z" finished-at="2019-05-28T10:32:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=FAILURE method=LoginTestCRM.loginApp()[pri:1, instance:com.automation.testcases.LoginTestCRM@78c730] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:1, instance:com.automation.testcases.LoginTestCRM@78c730] output={null}]]]>
               </value>
             </param>
           </params>
@@ -139,11 +72,11 @@ Session ID: 7ac8810a-7e80-40cd-814c-1882f0d338f7
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="loginApp1()[pri:2, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp1" duration-ms="3" started-at="2019-05-24T13:10:37Z" finished-at="2019-05-24T13:10:37Z">
+        <test-method status="PASS" signature="loginApp1()[pri:2, instance:com.automation.testcases.LoginTestCRM@78c730]" name="loginApp1" duration-ms="2" started-at="2019-05-28T10:32:08Z" finished-at="2019-05-28T10:32:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp1 -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="101" started-at="2019-05-24T13:10:37Z" finished-at="2019-05-24T13:10:37Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tearDownMethod" is-config="true" duration-ms="375" started-at="2019-05-28T10:32:08Z" finished-at="2019-05-28T10:32:08Z">
           <params>
             <param index="0">
               <value>
@@ -160,7 +93,7 @@ Session ID: 7ac8810a-7e80-40cd-814c-1882f0d338f7
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tesrDown()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tesrDown" is-config="true" duration-ms="529" started-at="2019-05-24T13:10:37Z" finished-at="2019-05-24T13:10:37Z">
+        <test-method status="PASS" signature="tesrDown()[pri:0, instance:com.automation.testcases.LoginTestCRM@78c730]" name="tesrDown" is-config="true" duration-ms="1221" started-at="2019-05-28T10:32:08Z" finished-at="2019-05-28T10:32:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tesrDown -->
