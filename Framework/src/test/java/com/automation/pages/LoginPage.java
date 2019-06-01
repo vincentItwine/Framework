@@ -1,8 +1,10 @@
 package com.automation.pages;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.asserts.SoftAssert;
 
 public class LoginPage {
 
@@ -12,12 +14,15 @@ public class LoginPage {
 	{
 	this.driver=ldriver;
 	}
-	@FindBy(name="email") WebElement uname;
-	@FindBy(name="password") WebElement pass;
-	@FindBy(xpath="//div[@class='ui fluid large blue submit button']") WebElement loginButon;
-	 
+	@FindBy(xpath="//input[@formcontrolname='username']") WebElement uname;
+	@FindBy(xpath="//input[@formcontrolname='password']") WebElement pass;
+	@FindBy(xpath="//button[@class='btn btn-danger btn-block btn-lg']") WebElement loginButon;
+	@FindBy(xpath="//h3[text()='BET INDIA RACES']") WebElement textVer;
 	
-	public void loginToCRM(String usernameApplication, String passwordApplication)
+	//@Optional("admin@itwinetech.com") String ApplicationUserName, @Optional("1234") String ApplicationPassword
+	//@Parameters({"ApplicationUserName","ApplicationPassword"})
+	
+	public void loginToBIR(String ApplicationUserName, String ApplicationPassword)
 	{
 		
 		try {
@@ -25,10 +30,14 @@ public class LoginPage {
 		} catch (InterruptedException e) {
 			
 		}
-		uname.sendKeys(usernameApplication);
-		pass.sendKeys(passwordApplication);
+		uname.sendKeys(ApplicationUserName);
+		pass.sendKeys(ApplicationPassword);
 		loginButon.click();
 		
+		//Verify successfully logged in
+		String bir=textVer.getText();
+		SoftAssert assertion =new SoftAssert();
+				assertion.assertEquals("Login ailed, Incorrect email id or password.", bir);
 	}
 	
 }

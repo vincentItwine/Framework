@@ -2,9 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test">
+<!--   <parameter name="ApplicationUserName" value="admin@itwinetech.com"></parameter>
+  <parameter name="ApplicationPassword" value="1234"></parameter> -->
     <classes>
-      <class name="com.automation.testcases.LoginTestCRM"/>
-      <class name="com.automation.testcases.TestCasesWithoutFramework"/>
+     <class name="com.automation.testcases.AdminLoginTestBIR"/>
+     
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

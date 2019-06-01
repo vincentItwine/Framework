@@ -47,7 +47,11 @@ public class BaseClass {
 	{
 		Reporter.log("Trying to start Browser and Getting application ready", true);
 		
-		driver=BrowserFactory.startApplication(driver, Config.getBrowser(), Config.getStagingURL());
+		//FOR ADMIN URL
+		//driver=BrowserFactory.startApplication(driver, Config.getBrowser(), Config.getAdminURL());
+		
+		//FOR CUSTOMER URL
+		driver=BrowserFactory.startApplication(driver, Config.getBrowser(), Config.getCustomerURL());
 	
 		Reporter.log("Browser and Application is up and running", true);
 	}

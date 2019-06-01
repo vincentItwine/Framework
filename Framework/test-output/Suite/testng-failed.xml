@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="ApplicationPassword" value=""/>
+    <parameter name="ApplicationUserName" value="admin@itwinetech.com"/>
+    <classes>
+      <class name="com.automation.testcases.AdminLoginTestBIR">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="setup"/>
+          <include name="loginApp" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.automation.testcases.AdminLoginTestBIR -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -36,9 +36,21 @@ public class ConfigDataProvider {
 		return pro.getProperty("Browser");
 	}
 	
-	public String getStagingURL()
+	public String getAdminURL()
 	{
-		return pro.getProperty("qaURL");
+		return pro.getProperty("AdminURL");
 	}
-
+	public String getCustomerURL()
+	{
+		return pro.getProperty("CustomerURL");
+	}
+	public String getAdminUName()
+	{
+		return pro.getProperty("AdminUName");
+	}
+	
+	public String getAdminPass()
+	{
+		return pro.getProperty("AdminPass");
+	}
 }
